@@ -1,16 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: transparent;
+    background-image:url(https://wallup.net/wp-content/uploads/2016/07/19/8069-ambition-photography-reflection-chess-mirror-xatwn-Piramerd-748x421.jpg) ;
+    background-size: cover;
+    
     
 
 }
 
-
-.container, .container-fluid {
-  width: 100%;
-  padding-right: 25px;
-  padding-left: 25px;
-}
 
 
 
@@ -37,20 +33,9 @@ form a {
   background: #22577a !important;
 }
 
-/* Additional margin between nav items */
-.navbar-nav .nav-item {
-  margin-left: 20px; /* Add space between nav items */
-  margin-right: 20px; /* Add space between nav items */
-}
 
-/* Reduce the height of the navbar */
-.navbar {
-  padding-top: 8px; /* Reduced top padding */
-  padding-bottom: 8px; /* Reduced bottom padding */
-}
 /* contact form  */
 .con1{
-    background-image: url(https://wallup.net/wp-content/uploads/2016/07/19/8069-ambition-photography-reflection-chess-mirror-xatwn-Piramerd-748x421.jpg);
     background-size: cover;
 
 }
