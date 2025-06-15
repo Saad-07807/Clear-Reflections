@@ -1,4 +1,8 @@
 body {
+    background-image: url(images/63c90943526b0202301190911314.webp);
+    background-repeat: no-repeat;
+    background-size:400vh;
+    width: 100%;
     font-family: Arial, sans-serif;
     background-color: transparent;
 
@@ -16,20 +20,16 @@ body {
 
 /* Form link styling */
 form a {
+    
   text-decoration: none !important;
   color: #fff !important;
-  background: #22577a !important;
+  background: black !important;
 }
 
 
 /* contact form  */
-.con1{
-    background-image: url(https://images.pexels.com/photos/1209978/pexels-photo-1209978.jpeg?cs=srgb&dl=pexels-galerieb-1209978.jpg&fm=jpg);
-
-    background-size: cover;
-
-}
 .container {
+    
     width: 40%;
     margin: 0 auto;
     padding: 20px;
@@ -37,23 +37,26 @@ form a {
 }
 
 .container h1 {
+    
     text-align: center;
     color: #333;
     font-weight: 700;
 }
 
 .contact-form {
+    
     background-color: transparent;
     /* opacity: 0.4; */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
     background: transparent;
 
 }
 
 .contact-form label {
+    
     display: block;
     margin: 10px 0 5px;
     color: #000000;
@@ -62,6 +65,7 @@ form a {
 
 .contact-form input,
 .contact-form textarea {
+    
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -74,22 +78,22 @@ form a {
 
 .contact-form input:active,
 .contact-form textarea:active {
+    
     border: 4px solid #000000;
 }
 
 .contact-form input:hover,
 .contact-form textarea:hover {
-    border: 2px solid  #2e72f1;
+    border: 2px solid  grey;
 }
 
 .contact-form input,
 .contact-form textarea {
+    
     transition: border 0.3s ease;
 }
 
 .contact-form button {
-    background-color: #2e72f1;
-    color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
@@ -97,21 +101,23 @@ form a {
     font-size: 16px;
 }
 
-.contact-form button:hover {
-    background-color:  #5588e6;
-}
+
+
 
 .contact-info {
+    
     text-align: center;
     margin-top: 30px;
 }
 
 .contact-info p {
+    
     font-size: 16px;
     color: #333;
 }
 
 .contact-info a {
+    
     color: #1ab2ef;
     text-decoration: none;
 }
