@@ -11,12 +11,5 @@
   color: #fff;
 }
 
-a:hover{
-    text-decoration: underline;
-    transition: 0.5s;
-}
 
-.accordion-header:hover{
-  background-color: white;
-} 
 
